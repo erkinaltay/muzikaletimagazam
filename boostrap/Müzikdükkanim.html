@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<!-- saved from url=(0032)http://127.0.0.1:5500/index.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Müzikdükkanim</title>
+    <link rel="stylesheet" href="./Müzikdükkanim_files/index.css">
+    <link href="./Müzikdükkanim_files/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+  </head>
+  <body>
+
+    <ul>
+      <li><h1 href="index.html">Ana Sayfa</h1></li>
+      <li><a href="http://127.0.0.1:5500/%C3%BCr%C3%BCnlerimiz.html">Ürünlerimiz</a></li>
+      <li><a href="http://127.0.0.1:5500/hakk%C4%B1m%C4%B1zda.html">Hakkımızda</a></li>
+    </ul>
+
+    <div class="container">
+      <h1 id="merhaba">Merhaba !</h1> <br>
+      <a>Müzik Dükkanım sitemize hoşgeldiniz ! Uygun fiyatlı ürünlerimizi </a><a href="http://127.0.0.1:5500/%C3%BCr%C3%BCnlerimiz.html"> Ürünlerimiz </a>
+    kategorisinde bulabilirsiniz. 
+    </div>
+
+    <div class="container">
+      <tdiv>
+        <h2 style="font-size: 20px;
+                   color: rgb(83, 83, 8);
+                   margin-top: 50px;">Sitemizde Bulunan Müzik Aletleri</h2>
+         <div class="ul">
+          <li>Gitar</li><br>
+          <li>Piyano</li><br>
+          <li>Davul</li><br>
+          <li>Keman</li>
+         </div>     <br>
+         <button href="hakkımızda.html" type="button" class="btn btn-primary">Hakkımızda</button>     
+        
+        </tdiv></div>
+      
+    
+
+
+    
+
+    <script src="./Müzikdükkanim_files/popper.min.js.indir" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+    <script src="./Müzikdükkanim_files/bootstrap.min.js.indir" integrity="sha384-mQ93GR66B00ZXjt0YO5KlohRA5SY2XofN4zfuZxLkoj1gXtW8ANNCe9d5Y3eG5eD" crossorigin="anonymous"></script>
+    <script src="./Müzikdükkanim_files/bootstrap.bundle.min.js.indir" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+  <!-- Code injected by live-server -->
+<script>
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+
+</body></html>

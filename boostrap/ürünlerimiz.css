@@ -1,0 +1,8 @@
+div.container {
+    display: flex;
+    margin: 10px 30% auto 30%;
+}
+
+div.card {
+    margin: 10px;
+}
